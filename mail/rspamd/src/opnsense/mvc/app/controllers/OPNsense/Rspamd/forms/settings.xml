@@ -73,6 +73,7 @@
                 <id>rspamd.general.redirect_spam_adress</id>
                 <type>text</type>
                 <advanced>true</advanced>
+            </field>
             <field>             
                 <id>rspamd.general.nameserver</id>
                 <label>Nameserver</label>
