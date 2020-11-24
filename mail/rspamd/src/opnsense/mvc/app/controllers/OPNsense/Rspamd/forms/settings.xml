@@ -63,6 +63,17 @@
                 <help>Set the number of rows to be displayed in rspamd UI.</help>
             </field>
             <field>
+                <id>rspamd.general.redirect_spam></id>
+                <label>Redirect Spam</label>
+                <type>checkbox</type>
+                <advanced>true</advanced>
+                <help>Enable the redirect for Spam Mails. Note: You need to specify an Mail Adress below.</help>
+            </field>
+            <field>
+                <id>rspamd.general.redirect_spam_adress</id>
+                <type>text</type>
+                <advanced>true</advanced>
+            <field>             
                 <id>rspamd.general.nameserver</id>
                 <label>Nameserver</label>
                 <type>select_multiple</type>
