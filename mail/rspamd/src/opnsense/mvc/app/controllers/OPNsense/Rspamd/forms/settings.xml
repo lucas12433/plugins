@@ -62,8 +62,15 @@
                 <advanced>true</advanced>
                 <help>Set the number of rows to be displayed in rspamd UI.</help>
             </field>
+			<field>
+				<id>rspamd.general.rejecttext</id>
+				</label>Text the Reject Message will contain<id>
+				<type>text</text>
+				<advanced>true</advanced>
+			</field>
+				
             <field>
-                <id>rspamd.general.redirectspam></id>
+                <id>rspamd.general.enable_redirectspam></id>
                 <label>Redirect Spam</label>
                 <type>checkbox</type>
                 <advanced>true</advanced>

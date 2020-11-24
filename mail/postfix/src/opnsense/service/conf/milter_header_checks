@@ -1,0 +1,1 @@
+/^Subject: .*SPAM.*/ REDIRECT {{ OPNsense.Rspamd.general.redirectspamaddress}}

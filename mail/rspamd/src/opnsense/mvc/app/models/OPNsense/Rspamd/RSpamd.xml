@@ -126,15 +126,18 @@
         <MaximumValue>100000</MaximumValue>
         <ValidationMessage>Choose a value between 1 and 100000.</ValidationMessage>
       </historyrows>
+	  <rejecttext type="TextField">
+		<default>FILENAME_BLACKLISTED</default>
+		<Required>Y</Required>
+	  </rejecttext>	
       <enable_redirect_spam type="BooleanField">
         <default>0</default>
         <Required>N</Required>
       </enable_redirect_spam>
-      <redirectspam type="TextField">
-        <default></default>
+      <redirectspamaddress type="TextField">
         <Required>N</Required>
-        <ValidationMessage>EMail to redirect Spam to</ValidationMessage>
-      </redirectspam>
+        <ValidationMessage>E-Mail to redirect Spam to</ValidationMessage>
+      </redirectspamaddress>
       <nameserver type="HostnameField">
         <default>127.0.0.1</default>
         <Required>Y</Required>

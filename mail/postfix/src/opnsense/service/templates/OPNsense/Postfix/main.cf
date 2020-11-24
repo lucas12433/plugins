@@ -37,6 +37,7 @@ recipient_bcc_maps = hash:/usr/local/etc/postfix/recipientbcc
 sender_canonical_maps = regexp:/usr/local/etc/postfix/sendercanonical
 header_checks = regexp:/usr/local/etc/postfix/header_checks_receiving
 smtp_header_checks = regexp:/usr/local/etc/postfix/header_checks_delivering
+milter_header_checks = pcre:/usr/local/etc/postfix/milter_header_checks
 ##########################
 # END SYSTEM DEFAULTS
 ##########################
