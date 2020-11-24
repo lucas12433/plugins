@@ -67,7 +67,7 @@
                 <label>Redirect Spam</label>
                 <type>checkbox</type>
                 <advanced>true</advanced>
-                <help>Enable the redirect for Spam Mails. Note: You need to specify an Mail Adress below.</help>
+                <help>Enable the redirect for Spam Mails. Note: You need to specify an Mail Adress below!</help>
             </field>
             <field>
                 <id>rspamd.general.redirect_spam_adress</id>
