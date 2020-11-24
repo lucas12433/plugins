@@ -71,8 +71,11 @@
             </field>
             <field>
                 <id>rspamd.general.redirect_spam_adress</id>
+                <label>Redirect Mail Adress</label>
                 <type>text</type>
                 <advanced>true</advanced>
+                <help></help>
+            </field>
             <field>             
                 <id>rspamd.general.nameserver</id>
                 <label>Nameserver</label>
