@@ -74,7 +74,7 @@
                 <label>Redirect Address/label>
                 <type>text</type>
                 <advanced>true</advanced>
-                <help>Set the number of rows to be displayed in rspamd UI.</help>
+                <help>The Adress to redirect Mails to</help>
             </field>
             <field>             
                 <id>rspamd.general.nameserver</id>
